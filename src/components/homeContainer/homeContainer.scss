@@ -1,0 +1,27 @@
+.home-container {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+
+  .chart-container {
+    display: grid;
+    grid-template-columns: max(1fr) max(2fr);
+    grid-template-rows: 1fr;
+    gap: 1em;
+  }
+
+  .table-container {
+    box-shadow: 2px 4px 10px 1px rgb(201 201 201 / 47%);
+    padding: 1em;
+
+    h3 {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: gray;
+      margin-bottom: 15px;
+    }
+  }
+}

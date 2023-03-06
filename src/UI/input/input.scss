@@ -1,0 +1,26 @@
+.input {
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  width: 190px;
+  position: relative;
+  border: 1px solid rgb(230, 227, 227);
+
+  input {
+    width: 100%;
+    display: block;
+    padding: 0.45em 0.25em;
+    font-size: 0.6rem;
+    border: none;
+    outline: none;
+  }
+
+  svg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 2px;
+    width: 24px;
+    color: #555;
+  }
+}

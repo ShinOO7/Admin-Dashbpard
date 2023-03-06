@@ -1,0 +1,86 @@
+import avatar from "../Images/avatar.jpg";
+
+const userData = [
+  {
+    id: 1,
+    name: "Snow",
+    profile: avatar,
+    Email: "1snow@gmail.com",
+    age: 35,
+    status: "active",
+  },
+  {
+    id: 2,
+    name: "Jamie Lannister",
+    profile: avatar,
+    Email: "2snow@gmail.com",
+    age: 42,
+    status: "passive",
+  },
+  {
+    id: 3,
+    name: "Lannister",
+    profile: avatar,
+    Email: "3snow@gmail.com",
+    age: 45,
+    status: "pending",
+  },
+  {
+    id: 4,
+    name: "Stark",
+    profile: avatar,
+    Email: "4snow@gmail.com",
+    age: 16,
+    status: "active",
+  },
+  {
+    id: 5,
+    name: "Targaryen",
+    profile: avatar,
+    Email: "5snow@gmail.com",
+    age: 22,
+    status: "passive",
+  },
+  {
+    id: 6,
+    name: "Melisandre",
+    profile: avatar,
+    Email: "6snow@gmail.com",
+    age: 15,
+    status: "active",
+  },
+  {
+    id: 7,
+    name: "Clifford",
+    profile: avatar,
+    Email: "7snow@gmail.com",
+    age: 44,
+    status: "passive",
+  },
+  {
+    id: 8,
+    name: "Frances",
+    profile: avatar,
+    Email: "8snow@gmail.com",
+    age: 36,
+    status: "active",
+  },
+  {
+    id: 9,
+    name: "Roxi",
+    profile: avatar,
+    Email: "snow@gmail.com",
+    age: 65,
+    status: "pending",
+  },
+  {
+    id: 10,
+    name: "Roxaine",
+    profile: avatar,
+    Email: "rox@gmail.com",
+    age: 40,
+    status: "active",
+  },
+];
+
+export default userData;

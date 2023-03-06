@@ -1,0 +1,42 @@
+.navigation {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  max-height: 49px;
+  border-bottom: 1px solid rgb(230, 227, 227);
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-right: 1em;
+
+    li {
+      display: flex;
+      align-items: center;
+
+      span {
+        font-size: 0.7rem;
+        color: #555;
+      }
+
+      .profile {
+        width: 30px;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        overflow: hidden;
+        background: url("../../Images/profile.jpg");
+        background-position: center;
+        background-size: cover;
+      }
+    }
+
+    svg {
+      width: 20px;
+      color: #555;
+    }
+  }
+}

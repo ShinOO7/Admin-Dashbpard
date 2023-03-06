@@ -1,0 +1,35 @@
+.users {
+  max-width: 100vw;
+  height: 100vh;
+  background: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  grid-template-rows: 1fr 18fr;
+
+  .list-container {
+    padding: 1em;
+    max-width: 100%;
+    overflow: hidden;
+
+    .new {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h3 {
+        color: gray;
+        font-weight: 400;
+        font-size: 1.2rem;
+      }
+
+      button {
+        color: green;
+        padding: 0.3em 0.4em;
+        border: 1px solid green;
+        border-radius: 4px;
+        background: transparent;
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

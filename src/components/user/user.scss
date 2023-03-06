@@ -1,0 +1,58 @@
+.user-container {
+  box-shadow: 2px 4px 10px 1px rgb(201 201 201 / 47%);
+  position: relative;
+  padding: 1em;
+
+  button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(117, 81, 248, 0.0941176471);
+    color: #7451f8;
+    border: none;
+    border-radius: 2px;
+    padding: 0.4em 0.5em;
+    font-size: 0.6rem;
+  }
+
+  & > h3 {
+    font-size: 0.8rem;
+    color: lightgray;
+  }
+
+  .info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    height: 90%;
+
+    .profile-pic {
+      width: clamp(100px, 10vw, 200px);
+      aspect-ratio: 1;
+      border-radius: 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .text {
+      h3 {
+        font-size: 1.5rem;
+        color: #555;
+      }
+      p {
+        font-size: 0.7rem;
+        margin: 0.6em 0;
+
+        span {
+          color: gray;
+          font-weight: 700;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+.widget-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+}
+
+.widget {
+  padding: 0.5em;
+  border-radius: 8px;
+  box-shadow: 2px 4px 10px 1px rgb(201 201 201 / 47%);
+  display: grid;
+  grid-template-columns: repaet(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  h3 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 0.7rem;
+    color: rgb(160, 160, 160);
+  }
+
+  .percent {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 0.7rem;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    position: relative;
+    color: green;
+    svg {
+      width: 25px;
+      position: absolute;
+      right: 30px;
+      top: -5px;
+    }
+  }
+
+  .amount {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    font-size: 1.3rem;
+  }
+
+  a {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    font-size: 0.65rem;
+    display: block;
+    align-self: end;
+    color: #000;
+  }
+
+  .icon {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 27px;
+    height: 27px;
+    align-self: flex-end;
+    justify-self: end;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+    svg {
+      width: 17px;
+    }
+  }
+
+  .red {
+    background: rgba(255, 0, 0, 0.2);
+    color: crimson;
+  }
+
+  .yellow {
+    color: goldenrod;
+    background: rgba(218, 165, 32, 0.2);
+  }
+
+  .green {
+    color: green;
+    background: rgba(0, 128, 0, 0.2);
+  }
+
+  .purple {
+    color: purple;
+    background: rgba(128, 0, 128, 0.2);
+  }
+}
